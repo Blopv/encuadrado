@@ -225,7 +225,7 @@ class _UserHomePageState extends State<AddAppointmentPage> {
               setState(() {
                 _selectedServiceIndex = index;
                 _selectedDuration = service['duracionMin'] ?? 0;
-                _selectedDateTime = null;
+                _selectedDateTime = null; // Resetea la selección del día y hora
               });
             },
             child: ServiceCard(
@@ -331,9 +331,9 @@ class _UserHomePageState extends State<AddAppointmentPage> {
           : () => _showSnackBar('Debes seleccionar un servicio antes de elegir un día y hora'),
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.white, 
-          border: Border.all(color: const Color(0xFFE0E3E7), width: 2), 
-          borderRadius: BorderRadius.circular(12), 
+          color: Colors.white,
+          border: Border.all(color: const Color(0xFFE0E3E7), width: 2),
+          borderRadius: BorderRadius.circular(12),
         ),
         child: DaySelectorFormField(
           diasPermitidos: isServiceSelected
