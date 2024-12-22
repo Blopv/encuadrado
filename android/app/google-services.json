@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971851568528",
+    "project_id": "encuadrado-e1dd8",
+    "storage_bucket": "encuadrado-e1dd8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971851568528:android:dcc31b5ca55190f0608f15",
+        "android_client_info": {
+          "package_name": "com.example.encuadrado"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtlupBhGIE_1kOQXaBWOt0Xc_S1ptmtbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
